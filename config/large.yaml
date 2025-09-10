@@ -1,0 +1,9 @@
+model:
+  d_model: 1280
+  d_ff: 5120
+  num_heads: 36
+  num_layers: 20
+
+  vocab_size: 10000
+  batch_size: 4
+  rope_theta: 10000
