@@ -1,0 +1,6 @@
+Model,Forward Time (s),Forward + Backward Time (s)
+small,0.0460,0.1467
+medium,0.1399,0.4200
+large,0.2885,0.8882
+xl,0.5776,1.7569
+2.7B,0.8563,2.6068

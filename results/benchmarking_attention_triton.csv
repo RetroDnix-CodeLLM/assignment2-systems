@@ -1,0 +1,15 @@
+method_name,d_model,seq_len,forward_time(s),mem(MB)
+Naive Attention,128,256,0.0172,14.32
+Naive Attention,128,512,0.0219,28.34
+Naive Attention,128,1024,0.0490,80.36
+Naive Attention,128,2048,0.1193,280.41
+Naive Attention,128,4096,0.4436,1064.50
+Naive Attention,128,8192,1.6044,4168.69
+Naive Attention,128,16384,6.0574,16521.06
+FlashAttention v2 Triton,128,256,0.0064,10.82
+FlashAttention v2 Triton,128,512,0.0063,13.32
+FlashAttention v2 Triton,128,1024,0.0123,18.33
+FlashAttention v2 Triton,128,2048,0.0440,28.34
+FlashAttention v2 Triton,128,4096,0.1715,48.38
+FlashAttention v2 Triton,128,8192,0.6281,88.44
+FlashAttention v2 Triton,128,16384,2.4423,168.56

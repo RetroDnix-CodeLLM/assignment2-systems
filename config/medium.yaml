@@ -1,9 +1,9 @@
 model:
   d_model: 1024
   d_ff: 4096
-  num_heads: 24
-  num_layers: 16
+  num_heads: 16
+  num_layers: 24
 
-  vocab_size: 10000
+data:
   batch_size: 4
-  rope_theta: 10000
+  iters: 10

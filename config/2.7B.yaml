@@ -4,6 +4,6 @@ model:
   num_heads: 32
   num_layers: 32
 
-  vocab_size: 10000
+data:
   batch_size: 4
-  rope_theta: 10000
+  iters: 10
